@@ -240,6 +240,7 @@ class ScottishFold : public Cat {
 Как видно, доступ определяется одним из уже знакомых нам ключевых слов: *private*, *protected* и *public*. При этом доступ определяет, каким образом будут доступны члены класса-предка:
 
 | Член предка | Private | Protected | Public    |
+| :---------: |:-------:| :-------: | :-------: |
 | Private     | X       | X         | X         |
 | Protected   | Private | Protected | Protected |
 | Public      | Private | Protected | Public    |
